@@ -12,7 +12,7 @@ def lead_query(doctype, txt, searchfield, start, page_len, filters):
         lead_name3,
         lead_name4 
     from 
-        `tabcustomer` 
+        `tabCustomer` 
     where 
         name = %(customer)s
     """,
