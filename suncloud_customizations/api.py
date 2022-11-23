@@ -18,6 +18,6 @@ def lead_query(doctype, txt, searchfield, start, page_len, filters):
     """,
     {
         'customer':customer
-    })
+    }, as_dict=True)
     data = [data[0]['lead_name'],data[0]['lead_name1'],data[0]['lead_name2'],data[0]['lead_name3'],data[0]['lead_name4']]
     return data
